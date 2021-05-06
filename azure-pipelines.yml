@@ -17,6 +17,7 @@ steps:
 
 
 - script: |
+    npm init
     npm install
     npm run build
     npm install -g increase-memory-limit

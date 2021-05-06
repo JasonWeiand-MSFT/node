@@ -19,8 +19,6 @@ steps:
 - script: |
     npm install
     npm run build
-  displayName: 'npm install and build'
-
-- script: |
     npm install -g increase-memory-limit
     npm run increase-memory-limit
+  displayName: 'npm install and build'
